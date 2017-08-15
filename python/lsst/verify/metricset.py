@@ -83,7 +83,7 @@ class MetricSet(JsonSerializationMixin):
 
         See also
         --------
-        `MetricSet.load_single_package`
+        lsst.verify.MetricSet.load_single_package
 
         Notes
         -----
@@ -141,7 +141,7 @@ class MetricSet(JsonSerializationMixin):
 
         See also
         --------
-        `MetricSet.load_metrics_package`
+        lsst.verify.MetricSet.load_metrics_package
 
         Notes
         -----
@@ -378,7 +378,7 @@ class MetricSet(JsonSerializationMixin):
         """Merge another `MetricSet` into this one.
 
         Parameters
-        ---------
+        ----------
         other : `MetricSet`
             Another `MetricSet`. Metrics in ``other`` that do exist in this
             set are added to this one. Metrics in ``other`` replace metrics of

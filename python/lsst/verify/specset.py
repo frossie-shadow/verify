@@ -145,7 +145,7 @@ class SpecificationSet(JsonSerializationMixin):
 
         See also
         --------
-        `SpecificationSet.load_single_package`
+        lsst.verify.SpecificationSet.load_single_package
 
         Notes
         -----
@@ -213,7 +213,7 @@ class SpecificationSet(JsonSerializationMixin):
 
         See also
         --------
-        SpecificationSet.load_metrics_package
+        lsst.verify.SpecificationSet.load_metrics_package
 
         Notes
         -----
@@ -689,7 +689,7 @@ class SpecificationSet(JsonSerializationMixin):
         """Merge another `SpecificationSet` into this one.
 
         Parameters
-        ---------
+        ----------
         other : `SpecificationSet`
             Another `SpecificationSet`. Specification in ``other`` that do
             exist in this set are added to this one. Specification in ``other``
@@ -925,7 +925,7 @@ class SpecificationSet(JsonSerializationMixin):
 
         See also
         --------
-        `lsst.verify.Job.report`
+        lsst.verify.Job.report
         """
         spec_subset = self.subset(name=name, meta=meta,
                                   spec_tags=spec_tags,

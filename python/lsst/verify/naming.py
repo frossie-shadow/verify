@@ -91,8 +91,8 @@ class Name(object):
     Examples
     --------
 
-    Creation
-    ^^^^^^^^
+    **Creation**
+
     There are many patterns for creating Name instances. Different patterns
     are useful in different circumstances.
 
@@ -127,8 +127,8 @@ class Name(object):
     >>> Name(metric='validate_drp.PA1', spec='design')
     Name('validate_drp', 'PA1', 'design')
 
-    String representation
-    ^^^^^^^^^^^^^^^^^^^^^
+    **String representation**
+
     Converting a ``Name`` into a `str` gives you the canonical string
     representation, as fully-specified as possible:
 

@@ -271,7 +271,7 @@ class Job(JsonSerializationMixin):
 
         See also
         --------
-        MeasurementSet.refresh_metrics
+        lsst.verify.MeasurementSet.refresh_metrics
         """
         metrics = MetricSet.load_metrics_package(
             package_name_or_path=package_name_or_path,
@@ -361,7 +361,7 @@ class Job(JsonSerializationMixin):
 
         See also
         --------
-        `lsst.verify.SpecificationSet.report`
+        lsst.verify.SpecificationSet.report
 
         Notes
         -----

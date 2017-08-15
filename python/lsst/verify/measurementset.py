@@ -140,7 +140,7 @@ class MeasurementSet(JsonSerializationMixin):
         """Merge another `MeasurementSet` into this one.
 
         Parameters
-        ---------
+        ----------
         other : `MeasurementSet`
             Another `MeasurementSet`. Measurements in ``other`` that do
             exist in this set are added to this one. Measurements in
@@ -183,7 +183,7 @@ class MeasurementSet(JsonSerializationMixin):
 
         Yields
         ------
-        item : tuple
+        item : `tuple`
             Tuple containing:
 
             - `Name` of the measurement's `Metric`
@@ -200,7 +200,7 @@ class MeasurementSet(JsonSerializationMixin):
         """Merge another `MeasurementSet` into this one.
 
         Parameters
-        ---------
+        ----------
         other : `MeasurementSet`
             Another `MeasurementSet`. Measurements in ``other`` that do
             exist in this set are added to this one. Measurements in
@@ -228,7 +228,7 @@ class MeasurementSet(JsonSerializationMixin):
 
         See also
         --------
-        Job.reload_metrics_package
+        lsst.verify.Job.reload_metrics_package
         """
         for metric_name, measurement in self.items():
             if metric_name in metric_set:
